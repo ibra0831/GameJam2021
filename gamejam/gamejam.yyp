@@ -1,14 +1,18 @@
 {
   "resources": [
     {"id":{"name":"enter_limbo","path":"sounds/enter_limbo/enter_limbo.yy",},"order":2,},
-    {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},"order":1,},
+    {"id":{"name":"rPrototypeLimbo","path":"rooms/rPrototypeLimbo/rPrototypeLimbo.yy",},"order":1,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":2,},
     {"id":{"name":"Abient1","path":"sounds/Abient1/Abient1.yy",},"order":1,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"sBackgroundSky","path":"sprites/sBackgroundSky/sBackgroundSky.yy",},"order":2,},
+    {"id":{"name":"sBackgroundMountain","path":"sprites/sBackgroundMountain/sBackgroundMountain.yy",},"order":1,},
     {"id":{"name":"SoundTrack","path":"sounds/SoundTrack/SoundTrack.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"decaying","path":"sprites/decaying/decaying.yy",},"order":2,},
+    {"id":{"name":"rPrototypeHell","path":"rooms/rPrototypeHell/rPrototypeHell.yy",},"order":2,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
+    {"id":{"name":"sBackgroundTrees","path":"sprites/sBackgroundTrees/sBackgroundTrees.yy",},"order":0,},
     {"id":{"name":"oEnemyBullet","path":"objects/oEnemyBullet/oEnemyBullet.yy",},"order":3,},
     {"id":{"name":"sEnemyBullet","path":"sprites/sEnemyBullet/sEnemyBullet.yy",},"order":2,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
@@ -28,7 +32,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
+    {"roomId":{"name":"rPrototypeLimbo","path":"rooms/rPrototypeLimbo/rPrototypeLimbo.yy",},},
+    {"roomId":{"name":"rPrototypeHell","path":"rooms/rPrototypeHell/rPrototypeHell.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -45,6 +50,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/BackgroundSprites.yy","order":3,"resourceVersion":"1.0","name":"BackgroundSprites","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
