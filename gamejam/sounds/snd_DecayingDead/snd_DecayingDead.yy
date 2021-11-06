@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.4,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_changeWorld.mp3",
-  "duration": 1.068118,
+  "soundFile": "snd_DecayingDead.wav",
+  "duration": 0.762667,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_changeWorld",
+  "name": "snd_DecayingDead",
   "tags": [],
   "resourceType": "GMSound",
 }
