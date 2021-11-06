@@ -10,11 +10,16 @@ hsp = move * walksp;
 
 vsp = vsp + grv;
 
-if (key_jump)
+if (key_jump) && (jump_current > 0)
 {
 	vsp = jumpheight;
+	jump_current--;
 }
-
+    
+if (place_meeting(x,y+1,oWall))
+{
+	jump_current = jump_number;
+}
 
 //Horizontal movement 
 if (place_meeting(x+hsp, y, oWall))
