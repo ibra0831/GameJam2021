@@ -2,6 +2,12 @@
 
 StopDuration -= 1;
 
+with (instance) {
+	x = other.x;
+	y = other.y;
+	
+}
+
 if (!place_meeting(x, y, oPlayer)) {
 	sprite_index = sDyingGuardian;
 	if (x < oPlayer.x) {
@@ -19,6 +25,10 @@ if (!place_meeting(x, y, oPlayer)) {
 if (hp <= 0)
 {
 	audio_play_sound(snd_DecayingDead,10,0);
+	
+	with (instance) {
+		instance_destroy(self);
+	}
 	
 	alive = false;
 	image_alpha-=0.05;//change this to affect the fading speed

@@ -76,3 +76,7 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+if (x > 1200) {
+	game_restart();
+}
