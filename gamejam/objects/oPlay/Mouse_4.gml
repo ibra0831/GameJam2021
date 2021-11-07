@@ -1,4 +1,4 @@
-room_goto(rStage2Limbo);
+room_goto(rTutorialLimbo);
 
 audio_play_sound(snd_Click,10,0);
 

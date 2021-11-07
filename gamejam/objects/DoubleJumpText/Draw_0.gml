@@ -1,0 +1,1 @@
+draw_text(x,y,"JUMP TWICE quickly after another to double jump!");

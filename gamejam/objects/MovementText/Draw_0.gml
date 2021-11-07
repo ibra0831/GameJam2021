@@ -1,0 +1,1 @@
+draw_text(x,y,"Use A and D to move, and SPACE to jump!");

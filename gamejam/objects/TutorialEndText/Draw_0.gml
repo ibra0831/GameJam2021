@@ -1,0 +1,1 @@
+draw_text(x,y,"You are now done with the tutorial! Walk to the end to continue!");

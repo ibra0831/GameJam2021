@@ -1,0 +1,1 @@
+draw_text(x,y,"RIGHT CLICK to shift dimensions!")

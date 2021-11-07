@@ -11,3 +11,5 @@ hp = 100;
 alive = true;
 
 counter_footsteps = 0;
+
+audio_play_sound(enter_limbo,10,1);
