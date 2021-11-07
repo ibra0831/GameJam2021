@@ -1,11 +1,9 @@
 if (place_meeting(x,y,oPlayer))
 {
-	instance_destroy()
-	instance_create_layer(x,y - 50,1,oEnemyBullet)
+	sprite_index = sEnemyBullet2;
 }
 if (place_meeting(x, y, oWall))
 {
-	instance_destroy()
-	instance_create_layer(x,y - 50,1,oEnemyBullet)
+	sprite_index = sEnemyBullet2;
 }
-move_towards_point( oPlayer.x, oPlayer.y, 1 );
+move_towards_point( oPlayer.x, oPlayer.y - 20, 3.4 );

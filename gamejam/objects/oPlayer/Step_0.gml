@@ -14,6 +14,8 @@ if (key_jump) && (jump_current > 0)
 {
 	vsp = jumpheight;
 	jump_current--;
+	
+	audio_play_sound(snd_jump,10,0);
 }
     
 if (place_meeting(x,y+1,oWall))

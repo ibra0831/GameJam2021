@@ -1,6 +1,10 @@
 /// @description Eye following
 
-x = oDyingGuardian.x;
-y = oDyingGuardian.y;
+if (instance_exists(oDyingGuardian))
+{
+	x = oDyingGuardian.x;
+	y = oDyingGuardian.y;
+}
+else instance_destroy();
 
-image_angle = point_direction(x, y, oPlayer.x, oPlayer.y)
+if (instance_exists(oPlayer)) image_angle = point_direction(x, y, oPlayer.x, oPlayer.y)
