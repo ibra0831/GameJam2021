@@ -1,6 +1,6 @@
-if (room == rPrototypeHell)
+if (room == rStage2Hell)
 {
-	room_goto(rPrototypeLimbo);
+	room_goto(rStage2Limbo);
 	audio_play_sound(snd_changeWorld,10,0);
 	
 	oCamera.shake_remain = 5;
@@ -10,7 +10,7 @@ if (room == rPrototypeHell)
 }
 else
 {
-	room_goto(rPrototypeHell);
+	room_goto(rStage2Hell);
 	audio_play_sound(snd_changeWorld,10,0);
 	
 	oCamera.shake_remain = 5;

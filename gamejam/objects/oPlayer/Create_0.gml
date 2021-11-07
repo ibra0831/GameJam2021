@@ -7,5 +7,7 @@ jumpheight = -14;
 jump_number = 1;
 jump_current = 0;
 
-PlayerHealth = 100;
-EnemyBulletDamage = 15;
+hp = 100;
+alive = true;
+
+counter_footsteps = 0;

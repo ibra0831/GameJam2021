@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (instance_exists(oPlayer))
+{
 function new_rand()
 {
 	rand_x = random_range(10,1351)
@@ -34,6 +36,7 @@ if (!place_meeting(x, y, oPlayer)) {
 	{
 		move_towards_point(rand_x,rand_y, 1.6)
 	}
+}
 }
 
 if (hp <= 0)

@@ -77,6 +77,20 @@ else
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-if (x > 1200) {
-	game_restart();
+if (hp <= 0)
+{
+	audio_play_sound(snd_DecayingDead,10,0);
+	
+	alive = false;
+	image_alpha-=0.05;//change this to affect the fading speed
+    if image_alpha<0 instance_destroy();
+	
+	instance_create_layer(oCamera.x,oCamera.y,"Effects",oGameover);
 }
+
+if (sprite_index==sPlayerRun) and (counter_footsteps==0)
+{
+    audio_play_sound(snd_footstep, 8, false);
+    counter_footsteps = 15; // number of steps to wait before trying to play the sound again
+}
+else if (counter_footsteps>0) counter_footsteps--;

@@ -25,6 +25,11 @@ if (layer_exists("Sky"))
 	layer_x("Sky",x/2);
 }
 
+if (layer_exists("SkyHell"))
+{
+	layer_x("SkyHell",x);
+}
+
 if (layer_exists("Trees"))
 {
 	layer_x("Trees",x/4);

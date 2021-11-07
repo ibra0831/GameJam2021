@@ -8,6 +8,8 @@ with (instance) {
 	
 }
 
+if (instance_exists(oPlayer))
+{
 if (!place_meeting(x, y, oPlayer)) {
 	sprite_index = sDyingGuardian;
 	if (x < oPlayer.x) {
@@ -16,10 +18,11 @@ if (!place_meeting(x, y, oPlayer)) {
 		image_xscale = 1;
 	}
 
-	if (point_distance(x, y, oPlayer.x, oPlayer.y) < 100000) && (alive == true) {
+	if (point_distance(x, y, oPlayer.x, oPlayer.y) < 500) && (alive == true) {
 		move_towards_point(oPlayer.x, oPlayer.y, 1);
 	}
 	else speed = 0;
+}
 }
 
 if (hp <= 0)
