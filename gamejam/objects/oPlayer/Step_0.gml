@@ -94,3 +94,8 @@ if (sprite_index==sPlayerRun) and (counter_footsteps==0)
     counter_footsteps = 15; // number of steps to wait before trying to play the sound again
 }
 else if (counter_footsteps>0) counter_footsteps--;
+
+if (y>800)
+{
+	hp = 0;
+}
