@@ -83,9 +83,7 @@ if (hp <= 0)
 	
 	alive = false;
 	image_alpha-=0.05;//change this to affect the fading speed
-    if image_alpha<0 instance_destroy();
-	
-	instance_create_layer(oCamera.x,oCamera.y,"Effects",oGameover);
+    if image_alpha<0 instance_destroy(); 
 }
 
 if (sprite_index==sPlayerRun) and (counter_footsteps==0)
